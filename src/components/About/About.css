@@ -1,0 +1,473 @@
+.About {
+    width: 100%;
+    height: 95vh;
+    background: rgb(243, 243, 243);
+    background-size: cover;
+    font-family: 'Rubik', sans-serif;
+}
+
+.Heading {
+    padding-top: 80px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: rgb(17, 17, 17);
+    display: flex;
+    flex-direction: column;
+}
+.HeadingBar {
+    margin: 0 auto;
+    background: rgb(17, 17, 17);
+    height: 4px;
+    width: 70px;
+}
+
+.Flex-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.Containers {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+
+.Tach > h1 {
+    padding-top: 5px;
+    font-size: 2em;
+}
+
+.Tach > p {
+    font-size: 1em;
+    font-weight: 800;
+}
+
+.Reliable {
+    padding-left: 50px;
+}
+.Reliable > h1 {
+    padding-top: 5px;
+    font-size: 2em;
+}
+
+.Reliable > p {
+    font-size: 1em;
+    font-weight: 800;
+}
+.Intuitive > h1 {
+    padding-top: 5px;
+    font-size: 2em;
+}
+
+.Intuitive > p {
+    font-size: 1em;
+    font-weight: 800;
+}
+.Intuitive {
+    padding-left: 50px;
+}
+
+.Dynamic > h1 {
+    padding-top: 5px;
+    font-size: 2em;
+}
+
+.Dynamic > p {
+    font-size: 1em;
+    font-weight: 800;
+}
+.Dynamic {
+    padding-left: 50px;
+}
+
+.AboutWrapper {
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.AboutLeft {
+    margin-top: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.MyText {
+    padding-top: 20px;
+}
+.MyText > p {
+    padding-top: 10px;
+    font-size: 1.3em;
+}
+
+.AboutRight {
+    margin-top: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: block;
+}
+
+
+.BarFlexCss {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    height: 30px;
+    margin: 0 0 15px 0;
+    background-color: rgb(219, 219, 219);
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    position: relative;
+}
+.BarFlexCss > span {
+    align-items: flex-end;
+    color: #333;
+    align-items: flex-end;
+    padding-left: 15.5%;
+    padding-top: 5px;
+    z-index: 1;
+}
+.BarFillCss {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    width: 75%;
+    left: 0;
+    top: 0;
+    position: relative;
+    background: rgb(26, 177, 177);
+}
+.TagBoldCss {
+    padding-top: 5px;
+    text-align: center;
+    height: 30px;
+    width: 110px;
+    left: 0;
+    top: 0;
+    background: rgb(32, 223, 223);
+}
+
+.BarFlexHtml {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    height: 30px;
+    margin: 0 0 15px 0;
+    background-color: rgb(219, 219, 219);
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    position: relative;
+}
+.BarFlexHtml > span {
+    color: #333;
+    align-items: flex-end;
+    padding-left: 15.5%;
+    padding-top: 5px;
+    z-index: 1;
+}
+.BarFillHtml {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    width: 75%;
+    left: 0;
+    top: 0;
+    position: relative;
+    background: rgb(26, 177, 177);
+}
+.TagBoldHtml {
+    padding-top: 5px;
+    text-align: center;
+    height: 30px;
+    width: 110px;
+    left: 0;
+    top: 0;
+    background: rgb(32, 223, 223);
+}
+
+.BarFlexJs {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    height: 30px;
+    margin: 0 0 15px 0;
+    background-color: rgb(219, 219, 219);
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    position: relative;
+}
+.BarFlexJs > span {
+    color: #333;
+    align-items: flex-end;
+    padding-left: 20.5%;
+    padding-top: 5px;
+    z-index: 1;
+}
+.BarFillJs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    width: 70%;
+    left: 0;
+    top: 0;
+    position: relative;
+    background: rgb(26, 177, 177);
+}
+.TagBoldJs {
+    padding-top: 5px;
+    text-align: center;
+    height: 30px;
+    width: 110px;
+    left: 0;
+    top: 0;
+    background: rgb(32, 223, 223);
+}
+
+.BarFlexReact {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    height: 30px;
+    margin: 0 0 15px 0;
+    background-color: rgb(219, 219, 219);
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    position: relative;
+}
+.BarFlexReact > span {
+    color: #333;
+    align-items: flex-end;
+    padding-left: 25.5%;
+    padding-top: 5px;
+    z-index: 1;
+}
+.BarFillReact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    width: 65%;
+    left: 0;
+    top: 0;
+    position: relative;
+    background: rgb(26, 177, 177);
+}
+.TagBoldReact {
+    padding-top: 5px;
+    text-align: center;
+    height: 30px;
+    width: 110px;
+    left: 0;
+    top: 0;
+    background: rgb(32, 223, 223);
+}
+
+.BarFlexC {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    height: 30px;
+    margin: 0 0 15px 0;
+    background-color: rgb(219, 219, 219);
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    position: relative;
+}
+.BarFlexC > span {
+    color: #333;
+    align-items: flex-end;
+    padding-left: 20.5%;
+    padding-top: 5px;
+    z-index: 1;
+}
+.BarFillC {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    width: 70%;
+    left: 0;
+    top: 0;
+    position: relative;
+    background: rgb(26, 177, 177);
+}
+.TagBoldC {
+    padding-top: 5px;
+    text-align: center;
+    height: 30px;
+    width: 110px;
+    left: 0;
+    top: 0;
+    background: rgb(32, 223, 223);
+}
+
+.BarFlexSQL {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    height: 30px;
+    margin: 0 0 15px 0;
+    background-color: rgb(219, 219, 219);
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    position: relative;
+}
+.BarFlexSQL > span {
+    color: #333;
+    align-items: flex-end;
+    padding-left: 30.5%;
+    padding-top: 5px;
+    z-index: 1;
+}
+.BarFillSQL {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    width: 60%;
+    left: 0;
+    top: 0;
+    position: relative;
+    background: rgb(26, 177, 177);
+}
+.TagBoldSQL {
+    padding-top: 5px;
+    text-align: center;
+    height: 30px;
+    width: 110px;
+    left: 0;
+    top: 0;
+    background: rgb(32, 223, 223);
+}
+
+.BarFlexPS {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    height: 30px;
+    margin: 0 0 15px 0;
+    background-color: rgb(219, 219, 219);
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    position: relative;
+}
+.BarFlexPS > span {
+    color: #333;
+    align-items: flex-end;
+    padding-left: 10.5%;
+    padding-top: 5px;
+    z-index: 1;
+}
+.BarFillPS {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    width: 80%;
+    left: 0;
+    top: 0;
+    position: relative;
+    background: rgb(26, 177, 177);
+}
+.TagBoldPS {
+    padding-top: 5px;
+    text-align: center;
+    height: 30px;
+    width: 110px;
+    left: 0;
+    top: 0;
+    background: rgb(32, 223, 223);
+}
+
+.BarFlexIS {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    height: 30px;
+    margin: 0 0 15px 0;
+    background-color: rgb(219, 219, 219);
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    position: relative;
+}
+.BarFlexIS > span {
+    color: #333;
+    align-items: flex-end;
+    padding-left: 5.5%;
+    padding-top: 5px;
+    z-index: 1;
+}
+.BarFillIS {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    width: 85%;
+    left: 0;
+    top: 0;
+    position: relative;
+    background: rgb(26, 177, 177);
+}
+.TagBoldIS {
+    padding-top: 5px;
+    text-align: center;
+    height: 30px;
+    width: 110px;
+    left: 0;
+    top: 0;
+    background: rgb(32, 223, 223);
+}
+
+.BarFlex {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    height: 30px;
+    margin: 0 0 15px 0;
+    background-color: rgb(219, 219, 219);
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    position: relative;
+}
+.BarFlex > span {
+    color: #333;
+    padding-left: 35px;
+    padding-top: 3px;
+    z-index: 1;
+}
+.BarFill {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    width: 85%;
+    left: 0;
+    top: 0;
+    position: relative;
+    background: rgb(26, 177, 177);
+}
+.TagBold {
+    padding-top: 3px;
+    text-align: center;
+    height: 30px;
+    width: 110px;
+    left: 0;
+    top: 0;
+    background: rgb(32, 223, 223);
+}
+

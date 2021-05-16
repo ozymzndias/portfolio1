@@ -1,0 +1,55 @@
+.CallToAction {
+   text-decoration: none; 
+}
+
+.CallToAction > p {
+    text-decoration: none;
+    color: #fff;
+    float: left;
+}
+
+
+.CallToAction > i {
+    margin-top: 2px;
+    margin-left: 18px;
+    color: #fff;
+    float: right;
+}
+
+
+.Textbox {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    font-family: 'Rubik', sans-serif;
+}
+
+.Text {
+    color: #fff;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.Highlight {
+    color: rgb(255, 0, 76);
+}
+
+.CallToAction {
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 12px 22px 12px 25px;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.CallToAction:hover {
+    border: 2px solid rgb(255, 0, 76);
+    background: rgb(255, 0, 76);
+}

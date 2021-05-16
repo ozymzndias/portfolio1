@@ -1,0 +1,16 @@
+.Navbar {
+    width: 100%;
+    min-height: 50px;
+    background: rgb(22, 25, 34);
+    text-align: left;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 99;  
+    padding-top: 10px;
+    border-bottom: 3px solid rgb(255, 0, 76);
+}
+
+.Nav {
+  margin-left: 150px;
+}
